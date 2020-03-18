@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+<h2>@ViewBag.Controller.</h2>
+<h3>@ViewBag.Action</h3>
+<h4>@ViewBag.CustomVariable</h4>
+
+@Html.ActionLink("go to CustomVariable", "CustomVariable")
+@Html.ActionLink("go to CustomVariable", "CustomVariable", new {productId = 2})
+@Html.ActionLink("go to CustomVariable", "GetImage", "Product")
+
+@Html.ActionLink("go to CustomVariable", "GetImage", "Product", null, new
+{
+    id = "myAnchorID",
+    @class = "myCSSClass"
+})
+
+@Html.ActionLink("go to CustomVariable", "GetImage", "Product",
+    "https",
+    "myserver.mydomain.com",
+    " myFragmentName",
+    new {id = "myID"},
+    new {id = "myAnchorID", @class = "myCSSClass"})
+
+@Url.Action("Index", "Home", new {id = "MyId"})
