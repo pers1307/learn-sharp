@@ -51,5 +51,11 @@ namespace SportsStore.Controllers
 
             return View();
         }
+
+//        public RedirectToRouteResult MyActionMethod()
+//        {
+//            return RedirectToAction("Index");
+//            return RedirectToAction(new { controller = "Home", action = "Index", id = "MyID"});
+//        }
     }
 }
