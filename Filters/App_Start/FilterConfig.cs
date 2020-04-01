@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using Filters.Infrastucture;
 
 namespace Filters
 {
@@ -7,6 +8,7 @@ namespace Filters
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new CustomActionAttribute());
         }
     }
 }

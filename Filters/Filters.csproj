@@ -119,6 +119,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastucture\CustomActionAttribute.cs" />
+    <Compile Include="Infrastucture\CustomAuthAttribute.cs" />
+    <Compile Include="Infrastucture\GoogleAuthAttribute.cs" />
+    <Compile Include="Infrastucture\RangeExceptionAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +147,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Shared\RangError.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -37,6 +37,12 @@
         </e>
         <e p="Global.asax" t="Include" />
         <e p="Global.asax.cs" t="Include" />
+        <e p="Infrastucture" t="Include">
+          <e p="CustomActionAttribute.cs" t="Include" />
+          <e p="CustomAuthAttribute.cs" t="Include" />
+          <e p="GoogleAuthAttribute.cs" t="Include" />
+          <e p="RangeExceptionAttribute.cs" t="Include" />
+        </e>
         <e p="Models" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
@@ -72,6 +78,7 @@
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
             <e p="Error.cshtml" t="Include" />
+            <e p="RangError.cshtml" t="Include" />
           </e>
           <e p="Web.config" t="Include" />
         </e>
